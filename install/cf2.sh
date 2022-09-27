@@ -3,14 +3,14 @@ red='\e[1;31m'
 green='\e[0;32m'
 NC='\e[0m'
 MYIP=$(wget -qO- icanhazip.com);
-echo "Script By geo"
+echo "Script By why"
 clear
 apt install jq curl -y
-DOMAIN=installer.my.id
+DOMAIN=why-stores.my.id
 sub=$(</dev/urandom tr -dc a-z0-9 | head -c4)
-SUB_DOMAIN=${sub}.installer.my.id
-CF_ID=why-project96@gmail.com
-CF_KEY=84570683099becbeb0f04d8086ce6f309c56c
+SUB_DOMAIN=${sub}.why-stores.my.id
+CF_ID=wajjah52@gmail.com
+CF_KEY=3647b80d0cf08727fbb21d7ed10881eff6a1d
 set -euo pipefail
 IP=$(wget -qO- icanhazip.com);
 echo "Updating DNS for ${SUB_DOMAIN}..."
