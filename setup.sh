@@ -24,6 +24,7 @@ if [ -f "/etc/v2ray/domain" ]; then
 echo "Script Already Installed"
 exit 0
 fi
+mkdir /etc/v2ray
 mkdir /var/lib/premium-script;
 echo "IP=" >> /var/lib/premium-script/ipvps.conf
 wget https://raw.githubusercontent.com/why-project96/gaskeunajalah/main/install/cf.sh && chmod +x cf.sh && ./cf.sh
