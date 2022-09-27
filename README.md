@@ -64,4 +64,4 @@ Langsung Salin Saja Semua Command Lalu Paste Ke Server
 
 
 Donate? **Via Dana** 
-082220155143
+081212712087
