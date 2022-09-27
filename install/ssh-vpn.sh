@@ -218,7 +218,6 @@ END
 # Restart Service SSLH
 systemctl daemon-reload
 systemctl restart sslh
-systemctl status sslh
 /etc/init.d/sslh restart
 /etc/init.d/sslh status
 /etc/init.d/sslh restart
