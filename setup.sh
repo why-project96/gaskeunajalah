@@ -40,7 +40,7 @@ wget https://raw.githubusercontent.com/why-project96/gaskeunajalah/main/install/
 #installwg
 wget https://raw.githubusercontent.com/why-project96/gaskeunajalah/main/install/wg.sh && chmod +x wg.sh && screen -S wg ./wg.sh
 #install v2ray
-#wget https://raw.githubusercontent.com/why-project96/gaskeunajalah/main/xray/ins-xray.sh && chmod +x ins-xray.sh && screen -S v2ray ./ins-xray.sh
+wget https://raw.githubusercontent.com/why-project96/gaskeunajalah/main/xray/ins-xray.sh && chmod +x ins-xray.sh && screen -S v2ray ./ins-xray.sh
 #install L2TP
 wget https://raw.githubusercontent.com/why-project96/gaskeunajalah/main/install/ipsec.sh && chmod +x ipsec.sh && screen -S ipsec ./ipsec.sh
 wget https://raw.githubusercontent.com/why-project96/gaskeunajalah/main/install/set-br.sh && chmod +x set-br.sh && ./set-br.sh
