@@ -25,7 +25,6 @@ echo "Script Already Installed"
 exit 0
 fi
 rm -r /etc/v2ray
-mkdir /etc/v2ray
 mkdir /var/lib/premium-script
 echo "IP=$MYIP" >> /var/lib/premium-script/ipvps.conf
 wget -O /var/lib/premium-script/settvps.conf "https://raw.githubusercontent.com/rockneters/maladeva/main/settvps.conf" chmod +x settvps.conf
